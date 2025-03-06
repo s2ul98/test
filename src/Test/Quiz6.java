@@ -3,7 +3,7 @@ package Test;
 public class Quiz6 {
 	public static void main(String[] args) {
 		
-		BollPen bollPen = new BollPen(3,"100% ","파랑");
+		BollPen bollPen = new BollPen(2,"100% ","파랑");
 		ManNyun manNyun = new ManNyun(3, "80%", " 몽블랑");
 		
 		System.out.println("볼펜의 굵기" + bollPen.gul +","+ "남은 양:" +bollPen.yang +","+ "볼펜의 색:" +bollPen.color) ;
